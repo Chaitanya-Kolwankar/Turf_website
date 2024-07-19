@@ -165,7 +165,7 @@ a:hover {
 }
 
 .site-footer {
-  padding: 4em 0;
+  padding: 2em 0 0 0;
   background: #333333;
 }
 
@@ -195,10 +195,13 @@ a:hover {
 }
 
 .bg-text-line {
-  display: inline;
-  background: #000;
-  -webkit-box-shadow: 20px 0 0 #000, -20px 0 0 #000;
-  box-shadow: 20px 0 0 #000, -20px 0 0 #000;
+  margin: 0 0 10px 0;
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: -1px 0 2px #2f4d5a;
 }
 
 .bg-image {
